@@ -1,0 +1,11 @@
+! Reddit - Remove blur, backdrop...
+reddit.com##.blurred:style(filter: unset !important; background: unset !important; pointer-events: unset !important; display: unset !important;)
+reddit.com##^xpromo-nsfw-blocking-modal
+reddit.com##^div[slot="blurred"]
+reddit.com##div[class="prompt "]
+reddit.com##.blurred:style(filter: none !important;)
+reddit.com##.post-background-image-filter:style(filter: none !important; opacity: 1 !important;)
+reddit.com##xpromo-untagged-content-blocking-modal
+www.reddit.com##xpromo-nsfw-blocking-container
+www.reddit.com##xpromo-nsfw-blocking-modal-desktop
+www.reddit.com##.transform-none.overflow-hidden.fixed.w-\[300px\].shadow-none.bottom-\[60px\].right-\[74px\].top-\[unset\].left-\[unset\].rounded-lg
