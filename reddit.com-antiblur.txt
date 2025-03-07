@@ -10,3 +10,7 @@ www.reddit.com##xpromo-nsfw-blocking-container
 www.reddit.com##xpromo-nsfw-blocking-modal-desktop
 www.reddit.com##.transform-none.overflow-hidden.fixed.w-\[300px\].shadow-none.bottom-\[60px\].right-\[74px\].top-\[unset\].left-\[unset\].rounded-lg
 www.reddit.com##body > div
+! removes over 18 warning
+www.reddit.com##.w-\[448px\].box-border
+! removes get-app nagging
+www.reddit.com###get-app
