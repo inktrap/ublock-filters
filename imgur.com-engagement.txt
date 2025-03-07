@@ -1,0 +1,5 @@
+! Imgur engagement
+imgur.com##.Navbar-signin.Button.ButtonLink
+imgur.com##.Comment-create
+imgur.com##.Gallery-EngagementBarContainer
+imgur.com##.Footer-wrapper
