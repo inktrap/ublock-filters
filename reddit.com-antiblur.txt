@@ -16,3 +16,5 @@ reddit.com###get-app
 reddit.com##.inline-flex.button.justify-center.items-center.button-bordered.px-\[var\(--rem14\)\].button-medium.xs\:w-auto.w-full
 ! mobile dialog
 reddit.com##.\[\&\:not\(\:defined\)\]\:hidden.box-border.w-\[calc\(100vw-var\(--size-2xl\)\)\]
+! mobile viral interaction
+reddit.com/##xpromo-viral-community
