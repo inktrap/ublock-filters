@@ -1,4 +1,4 @@
-! Reddit - Remove blur, backdrop...
+! remove blocking modals and blur, but keep image blur
 reddit.com##body div:style(backdrop-filter: none !important;)
 reddit.com##^xpromo-nsfw-blocking-modal
 reddit.com##div[class="prompt "]
@@ -10,7 +10,7 @@ reddit.com##.transform-none.overflow-hidden.fixed.w-\[300px\].shadow-none.bottom
 reddit.com##body > div
 ! removes over 18 warning
 www.reddit.com##.w-\[448px\].box-border
-! removes get-app nagging
+! removes get-app modal
 reddit.com###get-app
 ! mobile button
 reddit.com##.inline-flex.button.justify-center.items-center.button-bordered.px-\[var\(--rem14\)\].button-medium.xs\:w-auto.w-full
@@ -18,3 +18,10 @@ reddit.com##.inline-flex.button.justify-center.items-center.button-bordered.px-\
 reddit.com##.\[\&\:not\(\:defined\)\]\:hidden.box-border.w-\[calc\(100vw-var\(--size-2xl\)\)\]
 ! mobile viral interaction
 reddit.com/##xpromo-viral-community
+! desktop account creation (if something breaks use faceplate-tracker noun >)
+reddit.com##div.mt-md > faceplate-tracker
+! desktop join discussion
+reddit.com##.mt-sm.w-full.items-center.flex
+! desktop restyle login/more-comments button to be less attention seeking
+reddit.com###login-button:style(background-color: transparent !important;)
+reddit.com##faceplate-tracker[noun="load_more_comments"] > button:style(background-color: transparent !important;)
