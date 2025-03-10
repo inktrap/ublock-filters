@@ -3,3 +3,9 @@ imgur.com##.Navbar-signin.Button.ButtonLink
 imgur.com##.Comment-create
 imgur.com##.Gallery-EngagementBarContainer
 imgur.com##.Footer-wrapper
+! play button
+imgur.com##.pointer.video-play
+! accolades
+imgur.com##.btn-emerald.btn.item-single.item
+imgur.com##.GalleryVote-accoladesBridge
+imgur.com##.GalleryVote-accoladesAnimate.GalleryVote-accoladesButton
