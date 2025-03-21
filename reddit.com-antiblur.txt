@@ -7,9 +7,14 @@ reddit.com##xpromo-untagged-content-blocking-modal
 reddit.com##xpromo-nsfw-blocking-container
 reddit.com##xpromo-nsfw-blocking-modal-desktop
 reddit.com##.transform-none.overflow-hidden.fixed.w-\[300px\].shadow-none.bottom-\[60px\].right-\[74px\].top-\[unset\].left-\[unset\].rounded-lg
-reddit.com##body > div
-! removes over 18 warning
+www.reddit.com##body > div
+! removes over 18 warning/blur
 www.reddit.com##.w-\[448px\].box-border
+www.reddit.com##shreddit-blurred-container:style(filter: none !important;)
+www.reddit.com##span.blurred:style(filter: none !important;)
+www.reddit.com##div[slot="blurred"]:style(filter: none !important;)
+www.reddit.com##div.overlay:style(filter: none !important;)
+www.reddit.com##xpromo-bottom-sheet
 ! removes get-app modal
 reddit.com###get-app
 ! mobile button
@@ -17,7 +22,7 @@ reddit.com##.inline-flex.button.justify-center.items-center.button-bordered.px-\
 ! mobile dialog
 reddit.com##.\[\&\:not\(\:defined\)\]\:hidden.box-border.w-\[calc\(100vw-var\(--size-2xl\)\)\]
 ! mobile viral interaction
-reddit.com/##xpromo-viral-community
+reddit.com##xpromo-viral-community
 ! desktop account creation (if something breaks use faceplate-tracker noun >)
 reddit.com##div.mt-md > faceplate-tracker
 ! desktop join discussion
@@ -25,3 +30,5 @@ reddit.com##.mt-sm.w-full.items-center.flex
 ! desktop restyle login/more-comments button to be less attention seeking
 reddit.com###login-button:style(background-color: transparent !important;)
 reddit.com##faceplate-tracker[noun="load_more_comments"] > button:style(background-color: transparent !important;)
+! desktop restyle new submissions button
+www.reddit.com##div.sticky:style(background-color: transparent !important;)
